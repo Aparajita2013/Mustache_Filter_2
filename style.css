@@ -1,0 +1,22 @@
+h3{
+    font-size: 40px !important;
+}
+
+.btn-info{
+    font-size: 17px;
+}
+
+.btn-info:hover{
+    background-color: darkseagreen;
+}
+
+canvas{
+    animation-name: mustache;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mustache{
+    from{box-shadow: 1px 1px 38px lightcoral;}
+    to{box-shadow: 1px 1px 38px darkturquoise;}
+}
